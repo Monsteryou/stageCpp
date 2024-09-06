@@ -1,14 +1,10 @@
 /*****************************************************************//**
  * \file   Entreprise.cpp
- * \brief  Definition de la classe Entreprise
+ * \brief  
  * 
- * \author Pierre
- * \version 0.1
- * \date   June 2023
- * 
- * Programme Cpp permettant de creer des objets pour décrire les stages
+ * \author CIEL23_admin
+ * \date   September 2024
  *********************************************************************/
-
 #include "entreprise.h"
 
 
@@ -17,23 +13,21 @@ using namespace std;
 
 
 /**
- * \brief Constructeur par default 
- * \li Nom = anonyme
- * \li Ville = inconnu
- *  
+ * .
+ * 
  */
 Entreprise::Entreprise() {
 
-	this->nomEntreprise = "Nom inconnu";
-	this->villeEntreprise = "inconnu";
+	this->nomEntreprise = "Yves Rocher";
+	this->villeEntreprise = "La Gacilly";
 
 }
 
 /**
- * \brief Constructeur avec parametres rentres en argument
+ * .
  * 
- * \param nom nom de l'entreprise
- * \param ville ville de l'entreprise
+ * \param nom
+ * \param ville
  */
 Entreprise::Entreprise(std::string nom, std::string ville) {
 	this->nomEntreprise = nom;
@@ -44,11 +38,11 @@ Entreprise::Entreprise(std::string nom, std::string ville) {
 
 /**
  * \brief Destructeur
- * 
+ *
  */
 Entreprise::~Entreprise() {
 
-	cout << "Destrcution de l'entreprise " << this->nomEntreprise << " " << this->villeEntreprise << endl;
+    cout << "Destrcution de l'entreprise " << this->nomEntreprise << " " << this->villeEntreprise << endl;
 
 }
 

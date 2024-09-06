@@ -1,9 +1,9 @@
 /*****************************************************************//**
  * \file   Entreprise.h
- * \brief  Declaration de la classe entreprise
+ * \brief  
  * 
- * \author Pierre
- * \date   June 2023
+ * \author CIEL23_admin
+ * \date   September 2024
  *********************************************************************/
 
 #ifndef ENTREPRISE_H
